@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.nav-bar {
+
+    /* position: relative; */
+    display: flex;
+    background-color: white;
+    color: gray;
+    height: 15vh;
+}
+
+.logo {
+    margin: 30px 0px 0px 80px;
+    /* border: 2px solid green; */
+    color: rgb(90, 82, 82);
+    width: 10%;
+    font-size: 50px;
+    font-weight: 500;
+
+
+}
+
+.nav-bar ul {
+    display: flex;
+    margin: 10px;
+    /* padding: 10px; */
+    width: 90%;
+    text-transform: capitalize;
+
+    /* border: 1px solid red; */
+    margin-left: 10em;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    color: gray;
+    margin: 35px;
+    /* font-size: 10px; */
+
+    font-weight: 650;
+    font-family: system-ui;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: rgb(90, 82, 82);
+}
+
+#home {
+    color: green;
+}
+
+.active,
+.nav-bar ul li a:hover {
+    color: green;
+}
+
+.drop {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.hero {
+    /* border: 2px solid red; */
+    /* display: flex; */
+    height: 80vh;
+    /* width: 100%; */
+    /* background-color: whitesmoke; */
+
+}
+
+.starter {
+    display: flex;
+    /* border: 2px solid black; */
+    width: 100%;
+    margin: 0px;
+
+
+}
+
+.starter .heroes {
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: 10px;
+
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+    color: rgb(18, 16, 16);
+    margin-left: 60px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    color: gray;
+    margin-left: 60px;
+    padding-bottom: 50px;
+}
+
+.starter .heroes a {
+    border: 4px solid rgb(76, 228, 76);
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: rgb(76, 228, 76);
+    margin-left: 60px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.offers {
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-left: 60px;
+
+}
+
+.offers .offer {
+    width: 33.3%;
+    /* border: 1px solid greenyellow; */
+    margin: 30px;
+    padding: 20px;
+    background-color: whitesmoke;
+
+}
+
+.offers .offer h3 {
+    font-size: x-large;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.offers .offer p {
+    text-align: center;
+    font-size: larger;
+    font-family: "Raleway", sans-serif;
+    margin: 20px;
+}
+
+.offers .offer .icon {
+    text-align: center;
+    margin: 20px;
+}
+
+.happy {
+    border: 2px solid red;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.set {
+    border: 1px solid green;
+    width: 50%;
+    color: gray;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.set h2 {
+    font-family: "Raleway", sans-serif;
+    /* text-align: center; */
+    float: left;
+    padding-bottom: 20px;
+
+}
+
+.set h3 {
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+}
+
+.set ul {
+    list-style: none;
+    margin: 30px;
+    font-size: larger;
+    padding: 20px;
+
+}
+
+.set ul li a {
+    text-decoration: none;
+    /* padding: 10px; */
+
+}
+
+.set p a{
+    font-size: x-large;
+    text-decoration: none;
+    margin: 20px;
+    text-align: center;
+
+}
