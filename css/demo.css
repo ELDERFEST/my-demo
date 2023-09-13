@@ -20,10 +20,11 @@ body {
 .logo {
     margin: 30px 0px 0px 80px;
     /* border: 2px solid green; */
-    color: rgb(90, 82, 82);
+    color: rgb(113, 107, 107);
     width: 10%;
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
 
 
 }
@@ -34,7 +35,6 @@ body {
     /* padding: 10px; */
     width: 90%;
     text-transform: capitalize;
-
     /* border: 1px solid red; */
     margin-left: 10em;
 }
@@ -42,9 +42,8 @@ body {
 .nav-bar ul li {
     list-style: none;
     color: gray;
-    margin: 35px;
+    margin: 33px;
     /* font-size: 10px; */
-
     font-weight: 650;
     font-family: system-ui;
 }
@@ -130,8 +129,8 @@ h2 {
 .offers .offer {
     width: 33.3%;
     /* border: 1px solid greenyellow; */
-    margin: 30px;
-    padding: 20px;
+    margin: 20px;
+    padding: 15px;
     background-color: whitesmoke;
 
 }
@@ -283,6 +282,177 @@ h2 {
 .portfolio{
     border: 2px solid red;
     text-align: center;
-    background-color: aliceblue;
+    background-color: white;
+}
+.portfolio .section-head{
+    text-align: center;
+    margin: 30px;
+    height: 40px;
+
+}
+.portfolio .section-head h3{
+    font-size: 30px;
+    text-shadow: rgb(71, 67, 67);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: rgb(102, 100, 100);
+}
+.portfolio .section-head p{
+    font-size: 15px;
+    color: gray;
+}
+.portfolio .section-head ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin-left: 500px;
+    color: black;
+}
+.portfolio .section-head ul li{
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 500;
+
+}
+.portfolio .section-head ul li:hover{
+    color: green;
 }
 
+.portfolio .section-image{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* position: relative; */
+    top: 100px;
+    margin-left: 20px;
+    
+    padding: 40px;
+}
+.testimonials{
+    /* border: 2px solid orange; */
+    height: 80vh;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+.testimonials .test-head{
+    /* border: 2px solid black; */
+    height: 30vh;
+    text-align: center;
+    color: rgb(48, 43, 43);
+    margin: 10px;
+}
+.test-head h2{
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 30px 0px 10px 0px;
+}
+.test-head p{
+    color: rgb(101, 97, 97);
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 0px 0px 0px 20px;
+}
+.testi-a{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+
+.testi-a .testi{
+    width: 20%;
+    margin: 10px;
+    background-color: #ffff;
+    height: 25vh;
+}
+.testi-a .testi p{
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: smaller;
+    color: gray;
+    margin: 10px;
+    padding: 5px;
+}
+.testi-a .testi p::before{
+    quotes: "";
+}
+.testi-a .testi img{
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    margin: 20px 0px 0px 0px;
+
+}
+.action{
+    /* border: 2px solid green; */
+    text-align: center;
+    color: white;
+    height: 40vh;
+    width: 100%;
+    /* margin: 30px; */
+    padding: 30px;
+    background-color: #16df7e;
+}
+.action h3{
+    color: white;
+    font-family: sans-serif;
+    margin: 30px;  
+}
+.abut{
+    border: 2px solid #ffff;
+    width: 80px;
+    height: 40px;
+    margin: 50px;
+    background-color: #16df7e;
+    border-radius: 3px;
+    color: #16df7e;
+}
+.team{
+    /* border: 2px solid blue; */
+    height: 100vh;
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+}
+.team .team-head h3{
+    font-size: 25px;
+    color: rgb(97, 90, 90);
+    font-family: sans-serif;
+    text-shadow: 40px;
+}
+.team .team-head p{
+    font-size: small;
+    color: rgb(60, 59, 59);
+    font-family: sans-serif;
+}
+.team .tim{
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    display: flex;
+    text-align: center;
+    margin: 30px;
+    background-color: #ffff;
+}
+
+#one{
+    font-size: large;
+}
+#two{
+    font-size: small;
+    color: gray;
+    font-style: italic;
+    margin: 7px;
+}
+#six{
+    margin: 16px;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(135, 127, 127);
+}
